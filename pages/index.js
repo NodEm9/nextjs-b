@@ -22,10 +22,10 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>Hello, I am a Web developer, My specialties is in Front End, though I can also go with backend.</p>
+        <p>Hello, I am a Web developer, My specialties is in Front End.</p>
         <p>
-          (This is a sample website - you’ll be building a site like this on{' '}
-          <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
+          (This is a sample website - I have build learing Next.js and deployed on Vercel{' '}
+          <a href="https://nextjs.org/learn">You can learn Next.js</a>.)
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
